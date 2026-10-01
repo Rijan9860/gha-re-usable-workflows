@@ -12,4 +12,4 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Greeting Step
-              run: echo "Hi ${{ inputs.name }}Welcome to Reusable Workflow"
+              run: echo "Hi ${{ inputs.name }} Welcome to Reusable Workflow"
